@@ -1,0 +1,24 @@
+{"message":"insert into \"noteful_folders\" (\"folder_name\") values ($1) returning * - duplicate key value violates unique constraint \"noteful_folders_pkey\"","level":"error"}
+{"message":"insert into \"noteful_folders\" (\"folder_name\") values ($1) returning * - duplicate key value violates unique constraint \"noteful_folders_pkey\"","level":"error"}
+{"message":"insert into \"noteful_folders\" (\"folder_name\") values ($1) returning * - duplicate key value violates unique constraint \"noteful_folders_pkey\"","level":"error"}
+{"message":"insert into \"noteful_folders\" (\"folder_name\") values ($1) returning * - duplicate key value violates unique constraint \"noteful_folders_pkey\"","level":"error"}
+{"message":"insert into \"noteful_folders\" (\"folder_name\") values ($1) returning * - duplicate key value violates unique constraint \"noteful_folders_pkey\"","level":"error"}
+{"message":"insert into \"noteful_folders\" (\"folder_name\") values ($1) returning * - duplicate key value violates unique constraint \"noteful_folders_pkey\"","level":"error"}
+{"message":"insert into \"noteful_folders\" (\"folder_name\") values ($1) returning * - duplicate key value violates unique constraint \"noteful_folders_pkey\"","level":"error"}
+{"message":"insert into \"noteful_folders\" (\"folder_name\") values ($1) returning * - duplicate key value violates unique constraint \"noteful_folders_pkey\"","level":"error"}
+{"message":"insert into \"noteful_folders\" (\"folder_name\") values ($1) returning * - duplicate key value violates unique constraint \"noteful_folders_pkey\"","level":"error"}
+{"message":"insert into \"noteful_folders\" (\"folder_name\") values ($1) returning * - duplicate key value violates unique constraint \"noteful_folders_pkey\"","level":"error"}
+{"message":"insert into \"noteful_folders\" (\"folder_name\") values ($1) returning * - duplicate key value violates unique constraint \"noteful_folders_pkey\"","level":"error"}
+{"message":"insert into \"noteful_folders\" (\"folder_name\") values ($1) returning * - duplicate key value violates unique constraint \"noteful_folders_pkey\"","level":"error"}
+{"message":"insert into \"noteful_folders\" (\"folder_name\") values (DEFAULT) returning * - null value in column \"folder_name\" violates not-null constraint","level":"error"}
+{"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"noteful_folders\" where \"id\" = ?","level":"error"}
+{"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"noteful_folders\" where \"id\" = ?","level":"error"}
+{"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"noteful_folders\" where \"id\" = ?","level":"error"}
+{"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"noteful_folders\" where \"id\" = ?","level":"error"}
+{"message":"folder_id is not defined","level":"error"}
+{"message":"select * from \"noteful_folders\" where \"id\" = $1 limit $2 - invalid input syntax for type integer: \"function toString() { [native code] }\"","level":"error"}
+{"message":"folder_id is not defined","level":"error"}
+{"message":"folder_id is not defined","level":"error"}
+{"message":"logger is not defined","level":"error"}
+{"message":"insert into \"noteful_folders\" (\"folder_name\") values ($1) returning * - insert or update on table \"noteful_folders\" violates foreign key constraint \"noteful_folders_id_fkey\"","level":"error"}
+{"message":"insert into \"noteful_folders\" (\"folder_name\") values ($1) returning * - insert or update on table \"noteful_folders\" violates foreign key constraint \"noteful_folders_id_fkey\"","level":"error"}
