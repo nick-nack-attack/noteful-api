@@ -22,3 +22,32 @@
 {"message":"logger is not defined","level":"error"}
 {"message":"insert into \"noteful_folders\" (\"folder_name\") values ($1) returning * - insert or update on table \"noteful_folders\" violates foreign key constraint \"noteful_folders_id_fkey\"","level":"error"}
 {"message":"insert into \"noteful_folders\" (\"folder_name\") values ($1) returning * - insert or update on table \"noteful_folders\" violates foreign key constraint \"noteful_folders_id_fkey\"","level":"error"}
+{"message":"Cannot destructure property 'note_name' of 'req.body' as it is undefined.","level":"error"}
+{"message":"Cannot destructure property 'note_name' of 'req.body' as it is undefined.","level":"error"}
+{"message":"Cannot destructure property 'note_name' of 'req.body' as it is undefined.","level":"error"}
+{"message":"Cannot destructure property 'note_name' of 'req.body' as it is undefined.","level":"error"}
+{"message":"Cannot destructure property 'folderid' of 'req.body' as it is undefined.","level":"error"}
+{"message":"Cannot destructure property 'folderid' of 'req.body' as it is undefined.","level":"error"}
+{"message":"Cannot destructure property 'folderid' of 'req.body' as it is undefined.","level":"error"}
+{"message":"Cannot destructure property 'folderid' of 'req.body' as it is undefined.","level":"error"}
+{"message":"Cannot destructure property 'folderid' of 'req.body' as it is undefined.","level":"error"}
+{"message":"Cannot destructure property 'folderid' of 'req.body' as it is undefined.","level":"error"}
+{"message":"Cannot destructure property 'folderid' of 'req.body' as it is undefined.","level":"error"}
+{"message":"Cannot destructure property 'note_name' of 'req.body' as it is undefined.","level":"error"}
+{"message":"insert into \"noteful_notes\" (\"content\", \"folderid\", \"note_name\") values ($1, $2, $3) returning * - duplicate key value violates unique constraint \"blogful_notes_pkey\"","level":"error"}
+{"message":"insert into \"noteful_notes\" (\"content\", \"folderid\", \"note_name\") values ($1, $2, $3) returning * - duplicate key value violates unique constraint \"blogful_notes_pkey\"","level":"error"}
+{"message":"insert into \"noteful_notes\" (\"content\", \"folderid\", \"note_name\") values ($1, $2, $3) returning * - duplicate key value violates unique constraint \"blogful_notes_pkey\"","level":"error"}
+{"message":"insert into \"noteful_notes\" (\"content\", \"folderid\", \"note_name\") values ($1, $2, $3) returning * - duplicate key value violates unique constraint \"blogful_notes_pkey\"","level":"error"}
+{"message":"insert into \"noteful_notes\" (\"content\", \"folderid\", \"note_name\") values ($1, $2, $3) returning * - duplicate key value violates unique constraint \"blogful_notes_pkey\"","level":"error"}
+{"message":"insert into \"noteful_notes\" (\"content\", \"folderid\", \"note_name\") values ($1, $2, $3) returning * - duplicate key value violates unique constraint \"blogful_notes_pkey\"","level":"error"}
+{"message":"insert into \"noteful_notes\" (\"content\", \"folderid\", \"note_name\") values ($1, $2, $3) returning * - duplicate key value violates unique constraint \"blogful_notes_pkey\"","level":"error"}
+{"message":"insert into \"noteful_notes\" (\"content\", \"folderid\", \"note_name\") values ($1, $2, $3) returning * - duplicate key value violates unique constraint \"blogful_notes_pkey\"","level":"error"}
+{"message":"insert into \"noteful_notes\" (\"content\", \"folderid\", \"note_name\") values ($1, $2, $3) returning * - duplicate key value violates unique constraint \"blogful_notes_pkey\"","level":"error"}
+{"message":"insert into \"noteful_notes\" (\"content\", \"folderid\", \"note_name\") values ($1, $2, $3) returning * - insert or update on table \"noteful_notes\" violates foreign key constraint \"noteful_notes_folderid_fkey\"","level":"error"}
+{"message":"insert into \"noteful_notes\" (\"content\", \"folderid\", \"note_name\") values ($1, $2, $3) returning * - duplicate key value violates unique constraint \"blogful_notes_name_key\"","level":"error"}
+{"message":"insert into \"noteful_notes\" (\"content\", \"folderid\", \"note_name\") values ($1, $2, $3) returning * - insert or update on table \"noteful_notes\" violates foreign key constraint \"noteful_notes_folderid_fkey\"","level":"error"}
+{"message":"insert into \"noteful_notes\" (\"content\", \"folderid\", \"note_name\") values ($1, $2, $3) returning * - insert or update on table \"noteful_notes\" violates foreign key constraint \"noteful_notes_folderid_fkey\"","level":"error"}
+{"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"noteful_notes\" where \"id\" = ?","level":"error"}
+{"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"noteful_notes\" where \"id\" = ?","level":"error"}
+{"message":"Unexpected token } in JSON at position 16","level":"error"}
+{"message":"select * from \"noteful_notes\" where \"id\" = $1 limit $2 - invalid input syntax for type integer: \"undefined\"","level":"error"}
