@@ -1,5 +1,3 @@
-TRUNCATE TABLE noteful_folders;
-
 INSERT INTO "noteful_folders" ("id", "folder_name")
 	VALUES
 	(1, 'Things to do in Warsaw'),

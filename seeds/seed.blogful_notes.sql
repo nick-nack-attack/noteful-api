@@ -1,5 +1,3 @@
-TRUNCATE TABLE noteful_notes;
-
 INSERT INTO "noteful_notes" ("id", "note_name", "folderid", "content")
 	VALUES
 	(1, 'Check out PKIN', 1, 'It is the big building in the middle of downtown Warsaw. Cannot miss it!'),
