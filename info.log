@@ -90,3 +90,12 @@
 {"message":"delete from \"noteful_folders\" where \"id\" = $1 - update or delete on table \"noteful_folders\" violates foreign key constraint \"blogful_notes_folderid_fkey\" on table \"noteful_notes\"","level":"error"}
 {"message":"delete from \"noteful_folders\" where \"id\" = $1 - update or delete on table \"noteful_folders\" violates foreign key constraint \"blogful_notes_folderid_fkey\" on table \"noteful_notes\"","level":"error"}
 {"message":"delete from \"noteful_folders\" where \"id\" = $1 - update or delete on table \"noteful_folders\" violates foreign key constraint \"blogful_notes_folderid_fkey\" on table \"noteful_notes\"","level":"error"}
+{"message":"insert into \"noteful_folders\" (\"folder_name\") values ($1) returning * - duplicate key value violates unique constraint \"noteful_folders_pkey\"","level":"error"}
+{"message":"insert into \"noteful_folders\" (\"folder_name\") values ($1) returning * - duplicate key value violates unique constraint \"noteful_folders_pkey\"","level":"error"}
+{"message":"insert into \"noteful_notes\" (\"content\", \"folderid\", \"note_name\") values ($1, $2, $3) returning * - duplicate key value violates unique constraint \"noteful_notes_pkey\"","level":"error"}
+{"message":"insert into \"noteful_notes\" (\"content\", \"folderid\", \"note_name\") values ($1, $2, $3) returning * - duplicate key value violates unique constraint \"noteful_notes_pkey\"","level":"error"}
+{"message":"insert into \"noteful_notes\" (\"content\", \"folderid\", \"note_name\") values ($1, $2, $3) returning * - duplicate key value violates unique constraint \"noteful_notes_pkey\"","level":"error"}
+{"message":"insert into \"noteful_notes\" (\"content\", \"folderid\", \"note_name\") values ($1, $2, $3) returning * - duplicate key value violates unique constraint \"noteful_notes_pkey\"","level":"error"}
+{"message":"insert into \"noteful_notes\" (\"content\", \"folderid\", \"note_name\") values ($1, $2, $3) returning * - duplicate key value violates unique constraint \"noteful_notes_pkey\"","level":"error"}
+{"message":"select * from \"noteful_notes\" where \"id\" = $1 limit $2 - invalid input syntax for type integer: \"undefined\"","level":"error"}
+{"message":"select * from \"noteful_notes\" where \"id\" = $1 limit $2 - invalid input syntax for type integer: \"undefined\"","level":"error"}
