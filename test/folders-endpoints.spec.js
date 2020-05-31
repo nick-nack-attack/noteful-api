@@ -15,7 +15,7 @@ describe(' Folders Endpoints ', function() {
     })
 
     after('disconnect from db', () => db.destroy())
-    before('clean the table', () => db.raw('TRUNCATE noteful_folders, noteful_notes RESTART IDENTITY CASCADE'))
+    beforeEach('clean the table', () => db.raw('TRUNCATE noteful_folders, noteful_notes RESTART IDENTITY CASCADE'))
     afterEach('cleanup',() => db.raw('TRUNCATE noteful_folders, noteful_notes RESTART IDENTITY CASCADE'))
 
     describe('GET /api/folders', () => {

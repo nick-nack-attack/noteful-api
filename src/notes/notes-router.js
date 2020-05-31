@@ -15,8 +15,8 @@ const serializeNote = note => ({
 })
 
 notesRouter.route('/')
-
     .get((req, res, next) => {
+        console.log('GET NOTESROUTER / RUNNIN')
         const knexInstance = req.app.get('db')
         NotesService.getAllNotes(knexInstance)
             .then(notes => {
